@@ -1,0 +1,14 @@
+.footer-container{
+    height: 35px;
+    padding: 0 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 234, 234,0.5);
+    border-radius: 35px;
+    cursor: pointer;
+    overflow: hidden;
+}

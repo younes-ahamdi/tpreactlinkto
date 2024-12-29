@@ -1,0 +1,58 @@
+/* Background Image */
+.main-bg {
+    /* background-image: url('../../public/MainBg.jpg');  */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    
+    margin-bottom: 30px;
+  }
+  .Mtitle-gradient {
+    background: linear-gradient(to right,#28a745, #17a3b8e8, #007bffc6);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  .Mcont {
+    
+    /* background-image: url('/public/MPBg.jpg');  */
+    background-size: cover; 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 100%;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(1);
+  }
+  .balisCont{
+    margin-bottom: 8rem;
+  }
+  .balisCont button {
+    text-align: center;
+  }
+  .Mcont h1{
+    margin-bottom: 5rem;
+  }

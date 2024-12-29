@@ -1,0 +1,95 @@
+/* General styling for the app */
+.form-tp-app  {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.form-tp-app h3 {
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+/* Container for components */
+.form-tp-app div {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.form-tp-app button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.form-tp-app button:hover {
+  background-color: #357ab8;
+}
+
+/* Dropdown and options */
+.form-tp-app select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background: #f9f9f9;
+  margin-top: 10px;
+}
+
+.form-tp-app option {
+  padding: 5px;
+}
+
+/* Radio buttons */
+.form-tp-app label {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.form-tp-app input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Checkboxes */
+.form-tp-app input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.form-tp-app form {
+  margin-top: 15px;
+}
+
+.form-tp-app p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Selected skills display */
+.form-tp-app p.selected-skills {
+  font-weight: bold;
+  color: #4a90e2;
+}
+
+/* Submit button */
+.form-tp-app button[type="submit"] {
+  background-color: #5cb85c;
+}
+
+.form-tp-app button[type="submit"]:hover {
+  background-color: #4cae4c;
+}
